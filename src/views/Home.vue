@@ -120,7 +120,7 @@
             <v-col cols="12" sm="12" md="3" lg="3" xl="3" v-for="project in projects" :key="project.id">
                 <v-card class="" outlined>
                     <v-card-text class="pa-0">
-                        <v-img contain :src="project.img" />
+                        <v-img cover :src="project.img" />
                     </v-card-text>
 
                     <v-card-tile class="text-body-1 pa-2 ">{{ project.name }}</v-card-tile>
@@ -269,19 +269,20 @@ export default {
                 },
                 {
                     id: 2,
-                    name: 'E-Commerce',
-                    img: 'https://i.ibb.co/4Ks8LnR/Screenshot-from-2023-02-06-21-49-23.png'
+                    name: 'Blog',
+                    img: 'https://i.ibb.co/vHqpYTq/Screenshot-from-2023-02-05-01-13-30.png'
                 },
                 {
                     id: 3,
-                    name: 'Blog',
-                    img: 'https://i.ibb.co/4Ks8LnR/Screenshot-from-2023-02-06-21-49-23.png'
+                    name: 'Real State',
+                    img: 'https://i.ibb.co/gg6PDyf/1.png'
                 },
                 {
                     id: 4,
-                    name: 'Real State',
-                    img: 'https://i.ibb.co/4Ks8LnR/Screenshot-from-2023-02-06-21-49-23.png'
-                }
+                    name: 'NTF Marketplace',
+                    img: 'https://i.ibb.co/r2hcMvM/1.png'
+                },
+               
             ]
         }
     },
