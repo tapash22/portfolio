@@ -2,8 +2,8 @@
 <div class="home">
 
     <v-row>
-        <v-col cols="6" sm="6" md="6" lg="6" xl="6" class="d-flex justify-center align-center">
-            <v-sheet class="" height="200" color="">
+        <v-col cols="6" sm="6" md="6" lg="6" xl="6" class="d-flex justify-center align-center header" >
+            <v-sheet class="" height="200" color="transparent">
                 <h2 class="text-body-1 font-weight-bold my-2 black-text">Hi, I am</h2>
                 <h1 class="text-h4 font-weight-bold mt-5">TAPASH PAUL</h1>
                 <p class="text-body-1 gray">Front-end Developer</p>
@@ -300,11 +300,14 @@ export default {
 </script>
 
 <style scoped>
+.header{
+  background:rgba(240, 239, 239, 0.87);
+}
 .sheet {
     width: 100%;
     height: 0;
     border-bottom: 400px solid rgba(0, 0, 0, 0.938);
-    border-left: 70px solid transparent;
+    border-left: 70px solid rgba(240, 239, 239, 0.87);
 }
 
 .second {
